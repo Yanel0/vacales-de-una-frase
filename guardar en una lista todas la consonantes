@@ -1,0 +1,8 @@
+lista = ["juan, pablo, luis, antonio, mateo"]
+for cadena in lista:
+    print("----"+cadena+"----")
+    for caracter in cadena:
+        mini=caracter.lower()
+        if mini in "bcdfghjklmnñpqrstvwxyz":
+            print(mini)
+print("fin")
