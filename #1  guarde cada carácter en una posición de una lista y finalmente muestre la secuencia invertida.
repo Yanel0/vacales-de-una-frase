@@ -1,0 +1,13 @@
+lista = "carro, camion"
+for i in range(len(lista)-1,-1,-1):
+    print(lista[i],end='')
+
+print(lista[::-1])
+
+print(lista[::1])
+
+for caracteres in lista:
+    print(lista[::-1])
+
+for caracteres in lista:
+    print(lista[::1]
